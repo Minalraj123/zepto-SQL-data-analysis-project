@@ -3,6 +3,7 @@
 
 ANS:-
 CREATE TABLE zepto (
+
     Id primary key,
     Category VARCHAR(50),
     name VARCHAR(50),
