@@ -13,8 +13,7 @@ CREATE TABLE zepto (
     discountedSellingPrice INT(10),
     weightInGms INT,
     outOfStock BOOLEAN,
-    quantity INT
-);
+    quantity INT);
 
 # Data exploration
 
@@ -91,6 +90,7 @@ CREATE TABLE category_info (
     Department VARCHAR(50),
     Manager VARCHAR(50)
 );
+
 **How to insert categories table**
 
 INSERT INTO category_info (Category, Department, Manager) VALUES
